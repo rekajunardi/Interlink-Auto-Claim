@@ -72,10 +72,10 @@ socks5://5.6.7.8:1080
 
 The default claim interval is 4 hours. You can modify this in the source code if needed.
 
-## 👥 Contributors
+## Contributors
 
 - Airdrop Insiders Community
 
-## 🙏 Support
+##  Support
 
 If you find this bot helpful, consider supporting us by using our referral codes or contributing to the project.
