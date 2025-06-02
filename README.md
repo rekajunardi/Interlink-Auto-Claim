@@ -2,11 +2,8 @@
 
 Automated bot for claiming Interlink Labs airdrop tokens, designed for the Interlink platform.
 
-## 🚦 Register
 
-- **Link**: https://interlinklabs.ai/referral?refCode=88570
-
-## 🚀 Features
+## Features
 
 - **Automatic Token Claims**: Claims airdrop tokens every 4 hours automatically
 - **Smart Proxy Support**: Rotates between multiple proxies to avoid IP blocks
@@ -14,18 +11,18 @@ Automated bot for claiming Interlink Labs airdrop tokens, designed for the Inter
 - **Error Handling**: Robust error handling with automatic retry mechanisms
 - **OTP Support**: Full support for email-based OTP verification
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js v16.x or higher
 - NPM v8.x or higher
 - Valid Interlink account with email verification
 
-## 🔧 Installation
+## Cara Menggunakan Bot
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/vikitoshi/Interlink-Auto-Bot.git
-cd Interlink-Auto-Bot
+git clone https://github.com/rekajunardi/Interlink-Auto-Claim.git
+cd Interlink-Auto-Claim
 ```
 
 2. Install dependencies:
@@ -37,7 +34,7 @@ npm install
 Create a `proxies.txt` file in the root directory and add your proxies, one per line.
 Format: `host:port:username:password` or `protocol://host:port:username:password`
 
-## 🚦 Usage
+##  Cara Run Bot
 
 Run the bot:
 ```bash
@@ -58,7 +55,7 @@ After successful login, the bot will:
 4. Set up a countdown timer to the next claim
 5. Automatically attempt claims at the optimal time
 
-## ⚙️ Configuration
+## Configuration
 
 ### Proxy Setup
 
@@ -74,27 +71,6 @@ socks5://5.6.7.8:1080
 ### Claim Interval
 
 The default claim interval is 4 hours. You can modify this in the source code if needed.
-
-## 📝 Notes
-
-- The bot stores your JWT token in `token.txt` for persistent sessions
-- If your token expires, the bot will automatically prompt for re-login
-- Token balance is displayed after each successful claim
-- Console output is color-coded for better visibility
-
-## 🔒 Security
-
-- Your credentials are never stored in plain text
-- The bot only stores the JWT token, not your login credentials
-- All API requests are made over HTTPS
-
-## ⚠️ Disclaimer
-
-This bot is for educational purposes only. Use at your own risk. The developers are not responsible for any account restrictions or bans resulting from the use of this bot.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👥 Contributors
 
